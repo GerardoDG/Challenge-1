@@ -1,0 +1,182 @@
+body {
+    background-color: #F5F5F5;
+    font-family: 'Montserrat', sans-serif;
+    height: auto;
+}
+
+main {
+    padding: 20px 20px;
+}
+
+.titulo {
+    display: inline-block;
+}
+
+h1 {
+    height: 95px;
+    vertical-align: top;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 45px;
+    padding-left: 10px;
+}
+
+.panel {
+    display: inline-block;
+}
+
+#izquierdo {
+    height: 800px;
+    width: 70%;
+}
+
+.primerdiv {
+    height: 150px;
+}
+
+#lecturatexto {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    height: 530px;
+    width: 75%;
+    border: none;
+    margin-left: 23%;
+    background: none;
+}
+
+.segundodiv {
+    text-align: center;
+}
+
+p {
+    font-size: 10px;
+}
+
+.tercerdiv {
+    height: 140px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.izq {
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    color: white;
+    background: url(Imagenes/b1.png);
+    height: 60px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 4px -4px 18px 1px rgba(133, 128, 128, 0.75);
+    transition: 0.1s all;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.izq:hover {
+    transform: scale(1.05);
+}
+
+.der {
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    color: white;
+    background: url(Imagenes/b2.png);
+    height: 60px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 4px -4px 18px 1px rgba(133, 128, 128, 0.75);
+    transition: 0.1s all;
+    cursor: pointer;
+}
+
+.der:hover {
+    transform: scale(1.05);
+}
+
+#derecho {
+    vertical-align: top;
+    margin-left: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    height: 800px;
+    width: 20%;
+    padding: 5px 40px 10px 40px;
+    box-shadow: 4px -4px 18px 1px rgba(133, 128, 128, 0.75);
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+footer {
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    display: block;
+    background-color: white;
+}
+
+.copyright {
+    color: black;
+    padding-top: 40px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.redes {
+    margin: 15px 0;
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+#derecho2 {
+    vertical-align: top;
+    margin-left: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    height: 800px;
+    width: 24%;
+    padding: 10px 20px;
+    box-shadow: 4px -4px 18px 1px rgba(133, 128, 128, 0.75);
+}
+
+#desencript {
+    font-size: 16px;
+    width: 97%;
+    height: 500px;
+    margin: 15px 0;
+    border: none;
+}
+
+.copy {
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    background: none;
+    height: 60px;
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 4px -4px 18px 1px rgba(133, 128, 128, 0.75);
+    transition: 0.1s all;
+    cursor: pointer;
+}
+
+.copy:hover {
+    transform: scale(1.05);
+}
+
+textarea {
+    outline: none;
+}

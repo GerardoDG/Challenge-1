@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Imagenes/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+    <title>Encriptador Challenge 1</title>
+</head>
+
+<body>
+    <main>
+        <!--seccion central del panel mostrado en pantalla-->
+        <section>
+            <!--lado izquierdo de la pantalla-->
+            <div class="panel" id="izquierdo">
+                <div class="primerdiv">
+                    <img class="titulo" src="Imagenes/logo.png" width="150" height="150">
+                    <h1 class="titulo">Encriptador</h1>
+                </div>
+                <!--Ingresar el texto-->
+                <form>
+                    <textarea name="text" id="lecturatexto" cols="30" rows="10" placeholder="Ingrese su texto aqui" required autofocus></textarea>
+                    <!--Texto de advertencia-->
+                    <div class="segundodiv">
+                        <img src="Imagenes/Vector.png" class="titulo" width="10" height="10">
+                        <p class="titulo">Solo letras minusculas y sin acentos</p>
+                    </div>
+                    <!--bottones-->
+                    <div class="tercerdiv">
+                        <label for="encriptartext"></label>
+                        <input type="button" id="encriptartext" class="izq" value="Encriptar">
+                        <label for="desencriptartext"></label>
+                        <input type="button" id="desencriptartext" class="der" value="Desencriptar">
+                    </div>
+                </form>
+            </div>
+            <!--lado derecho de la pantalla-->
+            <div class="panel" id="derecho">
+                <!--imagen-->
+                <div class="imgsearch">
+                    <img src="Imagenes/busqueda.png" width="219" height="185">
+                </div>
+                <div>
+                    <textarea name="desencriptado" id="desencript" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <label for="copiar"></label>
+                    <input type="button" class="copy" id="copiarencriptado" value="Copiar">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="copyright">&copy Desarrollado por Gerardo Gonzalez - 2020</p>
+        <a class="redes" href="https://www.linkedin.com/in/gerardo-david-gonzalez-nu%C3%B1ez-ing-software/">
+            <img src="Imagenes/linkedin.png" width="30" height="30">
+        </a>
+        <a class="redes" href="https://github.com/GerardoDG">
+            <img src="Imagenes/github.png" width="30" height="30">
+        </a>
+    </footer>
+</body>
+
+<script src="encriptado.js"></script>
+
+</html>
